@@ -1,0 +1,264 @@
+<!DOCTYPE html> <!-- Início do documento HTML5 -->
+<html lang="pt-br"> <!-- Início da tag <html>, definindo o idioma do conteúdo como português do Brasil -->
+<head> <!-- Cabeçalho da página, onde ficam metadados, links e o título -->
+   <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8, permitindo caracteres especiais em português -->
+   <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Torna a página responsiva, ajustando sua escala de acordo com a largura do dispositivo -->
+   <link rel="icon" href="assets/images/play-yt.png" type="imagem/png"> <!-- Define o ícone da aba do navegador -->
+   <link rel="stylesheet" href="assets/css/style.css"> <!-- Liga a página ao arquivo CSS externo chamado "style.css" para estilos -->
+   <link rel="stylesheet" href="assets/css/global.css"> <!-- Liga a página ao arquivo CSS externo chamado "global.css" para regras de estilo que serão aplicadas em toda a página (como reset de margens, fontes padrão, cores globais etc.) -->
+   <title>5 Anos do DIO PRO. - YouTube</title> <!-- Define o título que aparece na aba do navegador -->
+</head>
+<body>
+   <header> <!-- Início do cabeçalho que contém logo, navegação, etc. -->
+      <div class="logo-menu"> <!-- Div que agrupa o logotipo e o menu (ícones) -->
+        <!-- SVG representando o ícone do menu (três linhas horizontais) -->
+         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> 
+            <path d="M3 12H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <!-- Linha horizontal do menu -->
+            <path d="M3 6H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <!-- Segunda linha do menu -->
+            <path d="M3 18H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <!-- Terceira linha do menu -->
+         </svg> <!-- Fechamento do SVG -->
+         <img src="assets/images/yt-logo.png" alt="Logo do YouTube"> <!-- Logo do YouTube --> 
+      </div> <!-- Fechamento da div "logo-menu" -->
+      <div class="search"> <!-- Div que contém a barra de pesquisa -->
+         <input type="text"> <!-- Campo de texto para digitar a pesquisa -->
+         <button> <!-- Botão para acionar a pesquisa -->
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <!-- SVG do ícone de busca (lupa) -->
+               <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/> <!-- Circunferência da lupa -->
+               <path d="M21 21L16.65 16.65" stroke="black" stroke-linecap="round" stroke-linejoin="round"/> <!-- Cabo da lupa, indicando o movimento de busca -->
+            </svg> <!-- Fechamento do SVG -->               
+         </button> <!-- Fechamento do botão de busca -->
+      </div> <!-- Fim da div "search" -->
+      <div class="notification"> <!-- Div que agrupa os ícones de notificações e perfil -->
+         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <!-- SVG do ícone de notificação (sino) -->
+            <path d="M23 7L16 12L23 17V7Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/> <!-- Parte do ícone (seta) -->
+            <path d="M14 5H3C1.89543 5 1 5.89543 1 7V17C1 18.1046 1.89543 19 3 19H14C15.1046 19 16 18.1046 16 17V7C16 5.89543 15.1046 5 14 5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/> <!-- Estrutura do sino -->
+         </svg> <!-- Fechamento do ícone do sino -->
+         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <!-- SVG do ícone de perfil (foto do usuário) -->
+            <path d="M18 8C18 6.4087 17.3679 4.88258 16.2426 3.75736C15.1174 2.63214 13.5913 2 12 2C10.4087 2 8.88258 2.63214 7.75736 3.75736C6.63214 4.88258 6 6.4087 6 8C6 15 3 17 3 17H21C21 17 18 15 18 8Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/> <!-- Silhueta do perfil -->
+            <path d="M13.73 21C13.5542 21.3031 13.3019 21.5547 12.9982 21.7295C12.6946 21.9044 12.3504 21.9965 12 21.9965C11.6496 21.9965 11.3054 21.9044 11.0018 21.7295C10.6982 21.5547 10.4458 21.3031 10.27 21" stroke="black" stroke-linecap="round" stroke-linejoin="round"/> <!-- Detalhe do perfil -->
+         </svg> <!-- Fechamento do SVG do perfil -->
+         <img src="assets/images/avatar-yt.png" alt="Foto perfil Gio Fernandes"> <!-- Foto do usuário exibida ao lado do perfil -->
+      </div>  
+   </header> <!-- Final do cabeçalho -->
+
+   <main> <!-- Início da área principal da página -->
+      <div class="video"> <!-- Div que contém o vídeo e informações relacionadas -->
+         <div class="video-player"> <!-- Container do player de vídeo -->
+            <iframe width="952" height="537" src="https://www.youtube.com/embed/aTywmMJDIns?si=TB5YIdKuR0oI68Xo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <!-- iframe para embutir o vídeo do YouTube, com atributos de configuração (tamanho, permissões, etc.) -->
+         </div> <!-- Fim do container do vídeo -->
+
+         <div class="video-player-title"> <!-- Título do vídeo -->
+            <h1>5 Anos do DIO PRO.</h1>
+         </div>
+
+         <div class="channel-infos"> <!-- Container com informações do canal -->
+            <div class="channel"> <!-- Div do canal -->
+               <div class="channel-avatar"> <!-- Avatar do canal -->
+                  <img src="assets/images/avatar-canal-dio.png" alt="Canal DIO (Digital Innovation One)">
+               </div>
+
+               <div class="channel-details"> <!-- Nome do canal e número de inscritos -->
+                  <h3>DIO</h3>
+                  <p>124 mil inscritos</p>
+               </div>
+            </div> <!-- Fim da div do canal -->
+
+            <div class="subscribe-channel"> <!-- Botão para se inscrever no canal -->
+               <button>Inscreva-se</button>
+            </div>
+
+            <div class="like"> <!--Ícone de ação "gostei/curtir" -->
+               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 22H4C3.46957 22 2.96086 21.7893 2.58579 21.4142C2.21071 21.0391 2 20.5304 2 20V13C2 12.4696 2.21071 11.9609 2.58579 11.5858C2.96086 11.2107 3.46957 11 4 11H7M14 9V5C14 4.20435 13.6839 3.44129 13.1213 2.87868C12.5587 2.31607 11.7956 2 11 2L7 11V22H18.28C18.7623 22.0055 19.2304 21.8364 19.5979 21.524C19.9654 21.2116 20.2077 20.7769 20.28 20.3L21.66 11.3C21.7035 11.0134 21.6842 10.7207 21.6033 10.4423C21.5225 10.1638 21.3821 9.90629 21.1919 9.68751C21.0016 9.46873 20.7661 9.29393 20.5016 9.17522C20.2371 9.0565 19.9499 8.99672 19.66 9H14Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+               </svg>
+               <p>2 mil</p>
+            </div>
+
+            <div class="dislike"> <!-- Ícone de ação "não gostei"-->
+               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17 2H19.67C20.236 1.98999 20.7859 2.18813 21.2154 2.55681C21.6449 2.9255 21.9241 3.43905 22 4V11C21.9241 11.5609 21.6449 12.0745 21.2154 12.4432C20.7859 12.8119 20.236 13.01 19.67 13H17M10 15V19C10 19.7956 10.3161 20.5587 10.8787 21.1213C11.4413 21.6839 12.2044 22 13 22L17 13V2H5.72C5.23767 1.99454 4.76962 2.16359 4.40209 2.47599C4.03457 2.78839 3.79232 3.22309 3.72 3.7L2.34 12.7C2.29649 12.9866 2.31583 13.2793 2.39666 13.5577C2.47749 13.8362 2.6179 14.0937 2.80814 14.3125C2.99839 14.5313 3.23392 14.7061 3.49843 14.8248C3.76294 14.9435 4.05009 15.0033 4.34 15H10Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+               </svg>
+               <p>Não gostei</p> 
+            </div>
+
+            <div class="share"> <!-- Ícone de ação "compartilhar" -->
+               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18 8C19.6569 8 21 6.65685 21 5C21 3.34315 19.6569 2 18 2C16.3431 2 15 3.34315 15 5C15 6.65685 16.3431 8 18 8Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M6 15C7.65685 15 9 13.6569 9 12C9 10.3431 7.65685 9 6 9C4.34315 9 3 10.3431 3 12C3 13.6569 4.34315 15 6 15Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M18 22C19.6569 22 21 20.6569 21 19C21 17.3431 19.6569 16 18 16C16.3431 16 15 17.3431 15 19C15 20.6569 16.3431 22 18 22Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M8.59 13.51L15.42 17.49" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M15.41 6.50999L8.59 10.49" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+               </svg>
+               <p>Compartilhar</p>
+            </div>
+
+            <div class="download"> <!-- Ícone de ação "download"-->
+               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 15V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V15" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M7 10L12 15L17 10" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12 15V3" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+               </svg>
+               <p>Download</p>
+            </div>
+         </div>
+
+         <div class="views"> <!-- Exibe número de visualizações e data de publicação -->
+            <p>170 visualizações  31 de jul. de 2025</p>
+         </div>
+
+         <div class="details"> <!-- Descrição do vídeo -->
+            <p>
+               Nenhuma descrição foi adicionada ao vídeo.
+            </p>
+         </div>
+      </div>
+      
+      <div class="playlist-video"> <!-- Container para a lista de vídeos relacionados -->
+         <div class="thumbnail">
+            <div class="thumbnail-video">
+               <img src="assets/images/thumbnails/thumb-01.png" alt="Vídeo Aula DIO"> <!-- Img miniatura -->
+            </div>
+            <div class="thumbnail-infos"> <!-- Título do vídeo -->
+               <h2>Geração Tech Unimed - BH - Ciência de Dados</h2> 
+               <div class="thumbnail-channel"> <!-- Nome do canal -->
+                  <p>DigitalInnovationOne</p> 
+               </div>
+               <div class="thumbnail-views"> <!-- Visualizações e transmissão -->
+                  <p>2,1 mil visualizações</p>
+                  <p>Transmitido há 2 dias</p>
+               </div>
+            </div>
+         </div>
+
+         <div class="thumbnail">
+            <div class="thumbnail-video">
+               <img src="assets/images/thumbnails/thumb-02.png" alt="Vídeo Aula DIO"> <!-- Img miniatura -->
+            </div>
+            <div class="thumbnail-infos"> <!-- Título do vídeo -->
+               <h2>Scrum Talks</h2>
+               <div class="thumbnail-channel"> <!-- Nome do canal -->
+                  <p>DigitalInnovationOne</p>
+               </div>
+               <div class="thumbnail-views"> <!-- Visualizações e transmissão -->
+                  <p>1,6 mil visualizações</p>
+                  <p>Transmitido há 3 dias</p>
+               </div>
+            </div>
+         </div>
+
+         <div class="thumbnail">
+            <div class="thumbnail-video">
+               <img src="assets/images/thumbnails/thumb-03.png" alt="Vídeo Aula DIO"> <!-- Img miniatura -->
+            </div>
+            <div class="thumbnail-infos"> <!-- Título do vídeo -->
+               <h2>Machine Learning Avançado - Fast Track</h2>
+               <div class="thumbnail-channel"> <!-- Nome do canal -->
+                  <p>DigitalInnovationOne</p>
+               </div>
+               <div class="thumbnail-views"> <!-- Visualizações e transmissão -->
+                  <p>1,7 mil visualizações</p>
+                  <p>Transmitido há 4 dias</p>
+               </div>
+            </div>
+         </div>
+
+         <div class="thumbnail">
+            <div class="thumbnail-video">
+               <img src="assets/images/thumbnails/thumb-04.png" alt="Vídeo Aula DIO"> <!-- Img miniatura -->
+            </div>
+            <div class="thumbnail-infos"> <!-- Título do vídeo -->
+               <h2>Global Skills #2 - Project Planning</h2> 
+               <div class="thumbnail-channel"> <!-- Nome do canal -->
+                  <p>DigitalInnovationOne</p>
+               </div>
+               <div class="thumbnail-views"> <!-- Visualizações e transmissão -->
+                  <p>971 visualizações</p>
+                  <p>Transmitido há 5 dias</p>
+               </div>
+            </div>
+         </div>
+
+         <div class="thumbnail">
+            <div class="thumbnail-video">
+               <img src="assets/images/thumbnails/thumb-05.png" alt="Vídeo Aula DIO"> <!-- Img miniatura -->
+            </div>
+            <div class="thumbnail-infos"> <!-- Título do vídeo -->
+               <h2>Como aprender a programar Python do ZERO</h2>
+               <div class="thumbnail-channel"> <!-- Nome do canal -->
+                  <p>DigitalInnovationOne</p>
+               </div>
+               <div class="thumbnail-views"> <!-- Visualizações e transmissão -->
+                  <p>711 visualizações</p>
+                  <p>Transmitido há 6 dias</p>
+               </div>
+            </div>
+         </div>
+         
+         <div class="thumbnail">
+            <div class="thumbnail-video">
+               <img src="assets/images/thumbnails/thumb-01.png" alt="Vídeo Aula DIO"> <!-- Img miniatura -->
+            </div>
+            <div class="thumbnail-infos"> <!-- Título do vídeo -->
+               <h2>Geração Tech Unimed - BH - Ciência de Dados</h2>
+               <div class="thumbnail-channel"> <!-- Nome do canal -->
+                  <p>DigitalInnovationOne</p>
+               </div>
+               <div class="thumbnail-views"> <!-- Visualizações e transmissão -->
+                  <p>2,1 mil visualizações</p>
+                  <p>Transmitido há 2 dias</p>
+               </div>
+            </div>
+         </div>
+
+         <div class="thumbnail">
+            <div class="thumbnail-video">
+               <img src="assets/images/thumbnails/thumb-02.png" alt="Vídeo Aula DIO"> <!-- Img miniatura -->
+            </div>
+            <div class="thumbnail-infos"> <!-- Título do vídeo -->
+               <h2>Scrum Talks</h2>
+               <div class="thumbnail-channel"> <!-- Nome do canal -->
+                  <p>DigitalInnovationOne</p>
+               </div>
+               <div class="thumbnail-views"> <!-- Visualizações e transmissão -->
+                  <p>1,6 mil visualizações</p>
+                  <p>Transmitido há 3 dias</p>
+               </div>
+            </div>
+         </div>
+
+         <div class="thumbnail">
+            <div class="thumbnail-video">
+               <img src="assets/images/thumbnails/thumb-03.png" alt="Vídeo Aula DIO"> <!-- Img miniatura -->
+            </div>
+            <div class="thumbnail-infos"> <!-- Título do vídeo -->
+               <h2>Machine Learning Avançado - Fast Track</h2>
+               <div class="thumbnail-channel"> <!-- Nome do canal -->
+                  <p>DigitalInnovationOne</p>
+               </div>
+               <div class="thumbnail-views"> <!-- Visualizações e transmissão -->
+                  <p>1,7 mil visualizações</p>
+                  <p>Transmitido há 4 dias</p>
+               </div>
+            </div>
+         </div>
+
+         <div class="thumbnail">
+            <div class="thumbnail-video">
+               <img src="assets/images/thumbnails/thumb-04.png" alt="Vídeo Aula DIO"> <!-- Img miniatura -->
+            </div>
+            <div class="thumbnail-infos"> <!-- Título do vídeo -->
+               <h2>Machine Learning Avançado - Fast Track</h2> 
+               <div class="thumbnail-channel"> <!-- Nome do canal -->
+                  <p>DigitalInnovationOne</p>
+               </div>
+               <div class="thumbnail-views"> <!-- Visualizações e transmissão -->
+                  <p>971 visualizações</p>
+                  <p>Transmitido há 5 dias</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </main>
+</body>
+</html>
+<!-- Fim do conteúdo -->
