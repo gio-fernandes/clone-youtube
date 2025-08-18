@@ -26,5 +26,12 @@ A ideia é replicar a estrutura visual e alguns elementos da interface, aplicand
 
 ---
 
+## 🚀 Acesse o Projeto
+
+Você pode visualizar o projeto online pelo GitHub Pages:  
+👉 https://gio-fernandes.github.io/clone-youtube/
+
+---
+
 👨‍💻 Desenvolvido por Giovanna Fernandes
 
