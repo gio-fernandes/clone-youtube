@@ -5,7 +5,7 @@ A ideia é replicar a estrutura visual e alguns elementos da interface, aplicand
 
 ---
 
-## ✨ Funcionalidades
+#### ✨ Funcionalidades
 
 - 🎨 Layout inspirado na página de vídeo do YouTube.  
 - 📱 **Responsividade** utilizando `meta viewport` e Flexbox.  
@@ -18,7 +18,7 @@ A ideia é replicar a estrutura visual e alguns elementos da interface, aplicand
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+#### 🛠️ Tecnologias Utilizadas
 
 - **HTML5** → Estrutura da página.  
 - **CSS3 (Flexbox e Grid)** → Estilização e responsividade.  
@@ -26,12 +26,13 @@ A ideia é replicar a estrutura visual e alguns elementos da interface, aplicand
 
 ---
 
-## 🚀 Acesse o Projeto
+#### 🚀 Acesse o Projeto
 
 Você pode visualizar o projeto online pelo GitHub Pages:  
+
 👉 https://gio-fernandes.github.io/clone-youtube/
 
 ---
 
-👨‍💻 Desenvolvido por Giovanna Fernandes
+Feito com 🤍 por Giovanna Fernandes
 
